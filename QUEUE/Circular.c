@@ -113,7 +113,7 @@ Queue removeEven(Queue *q){
 }
 
 int doubleTheValue(Queue *q, int value){
-	int i = front(*q);
+	int i;
 	int count=0;
 
 	for(i=q->front;q->elems[i]!=EMPTY;i=(i+1)%MAX){
